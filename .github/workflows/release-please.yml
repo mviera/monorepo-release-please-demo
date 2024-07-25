@@ -26,10 +26,10 @@ jobs:
         with:
           node-version: 14
           registry-url: 'https://external-dot-oss-automation.appspot.com/'
-      - name: publish
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_MONOREPO_TOKEN}}
-        run: |
-          cd ${{ matrix.path }}
-          npm install
-          npm publish --access=public
+#     - name: publish
+#       env:
+#         NODE_AUTH_TOKEN: ${{secrets.NPM_MONOREPO_TOKEN}}
+#       run: |
+#         cd ${{ matrix.path }}
+#         npm install
+#         npm publish --access=public
