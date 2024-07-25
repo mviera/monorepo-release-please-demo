@@ -26,7 +26,11 @@ jobs:
         with:
           node-version: 14
           registry-url: 'https://external-dot-oss-automation.appspot.com/'
-#     - name: publish
+      - name: publish
+        shell: bash
+        run: |
+          echo ${{ matrix.path }}
+
 #       env:
 #         NODE_AUTH_TOKEN: ${{secrets.NPM_MONOREPO_TOKEN}}
 #       run: |
