@@ -3,6 +3,38 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.0.0](https://github.com/mviera/monorepo-release-please-demo/compare/istanbul-lib-instrument-v6.0.3...istanbul-lib-instrument-v7.0.0) (2024-07-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** minimum Node version bumped to 10.
+* istanbul-lib-instrument no longer uses babel
+
+### Features
+
+* exclude Empty Object and Arrays in Truthy Detection ([#666](https://github.com/mviera/monorepo-release-please-demo/issues/666)) ([e279684](https://github.com/mviera/monorepo-release-please-demo/commit/e279684e735f4b7dbe2b632cde2515f6862099de))
+* option to evaluate logical truthiness, for applications such as fuzzing ([#629](https://github.com/mviera/monorepo-release-please-demo/issues/629)) ([a743b84](https://github.com/mviera/monorepo-release-please-demo/commit/a743b8442e977f0c77ffa282eed7ac84ca200d1f))
+
+
+### Bug Fixes
+
+* allow use of importAttributes Babel parser plugin ([#786](https://github.com/mviera/monorepo-release-please-demo/issues/786)) ([a44a124](https://github.com/mviera/monorepo-release-please-demo/commit/a44a124a600a798165f157d643f1fdb095c74f95))
+* **build:** verfiy automated publication ([b232690](https://github.com/mviera/monorepo-release-please-demo/commit/b232690193f4b524332046c96dd1cdc6e881c6c7))
+* **build:** verfiy automated publication ([74c96bd](https://github.com/mviera/monorepo-release-please-demo/commit/74c96bdc4224a06e2e1166ebd9adf8faf28438b1))
+* coverage.branchMap else location. ([#633](https://github.com/mviera/monorepo-release-please-demo/issues/633)) ([eb4b4ec](https://github.com/mviera/monorepo-release-please-demo/commit/eb4b4ec8f4b858655a66b0033fcc662f44ef4cc9))
+* **deps:** update deps addressing CVE-2023-45133 ([e67a405](https://github.com/mviera/monorepo-release-please-demo/commit/e67a4052ef647857fab9a465aaf293ff9d966b44))
+* **deps:** upgrade semver CVE-2022-25883 ([#731](https://github.com/mviera/monorepo-release-please-demo/issues/731)) ([d8399f3](https://github.com/mviera/monorepo-release-please-demo/commit/d8399f39eab6767a6fca5ef3b1b458a14d48775a))
+* globalThis with CSP compatibility ([#734](https://github.com/mviera/monorepo-release-please-demo/issues/734)) ([8b1baa8](https://github.com/mviera/monorepo-release-please-demo/commit/8b1baa8f45b6457ae2b467ddc5d4b6d9d9ea8690))
+* handle error when inputSourceMap is not a plain object ([#662](https://github.com/mviera/monorepo-release-please-demo/issues/662)) ([3e3611f](https://github.com/mviera/monorepo-release-please-demo/commit/3e3611f0efffefd5f87e6cbccd840e9f33aaf43e))
+* **magic-value:** make incrementing magic value a manual step ([#641](https://github.com/mviera/monorepo-release-please-demo/issues/641)) ([823010b](https://github.com/mviera/monorepo-release-please-demo/commit/823010b821cf81bd91377d75fc83f0875925db66))
+* support ESM when reading coverage ([#692](https://github.com/mviera/monorepo-release-please-demo/issues/692)) ([fc509cc](https://github.com/mviera/monorepo-release-please-demo/commit/fc509ccdc8bf5215672aa6f00551dec2e512124f))
+
+
+### Code Refactoring
+
+* istanbul-lib-instrument no longer uses babel ([8d3badb](https://github.com/mviera/monorepo-release-please-demo/commit/8d3badb8f6c9a4bed9af8e19c3ac6459ebd7267b))
+
 ## [6.0.3](https://github.com/istanbuljs/istanbuljs/compare/istanbul-lib-instrument-v6.0.2...istanbul-lib-instrument-v6.0.3) (2024-06-30)
 
 
