@@ -46,6 +46,24 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+## [3.3.0](https://github.com/mviera/monorepo-release-please-demo/compare/istanbul-lib-coverage-v3.2.2...istanbul-lib-coverage-v3.3.0) (2024-07-25)
+
+
+### Features
+
+* allow FileCoverage to be initialized with logical tracking ([#644](https://github.com/mviera/monorepo-release-please-demo/issues/644)) ([4cb5af1](https://github.com/mviera/monorepo-release-please-demo/commit/4cb5af1daaf33c3e9a5f3ee44f6bb7f958e5ba04))
+* support tracking Logic Truthiness as additional metric in coverage API ([#639](https://github.com/mviera/monorepo-release-please-demo/issues/639)) ([0967c80](https://github.com/mviera/monorepo-release-please-demo/commit/0967c80b905c3c17675ff2185b2325784e8dc0a2))
+
+
+### Bug Fixes
+
+* [#753](https://github.com/mviera/monorepo-release-please-demo/issues/753) ([c4895bb](https://github.com/mviera/monorepo-release-please-demo/commit/c4895bb418c55700182f481b914b74b2865a9bea))
+* handle merging '0' indexed coverage with '1' indexed coverage ([5dac2bc](https://github.com/mviera/monorepo-release-please-demo/commit/5dac2bcf28d6f27dbb720be72c2b692153418ab5)), closes [#632](https://github.com/mviera/monorepo-release-please-demo/issues/632)
+* https://github.com/istanbuljs/v8-to-istanbul/issues/233 ([288888f](https://github.com/mviera/monorepo-release-please-demo/commit/288888fef02ea35baf536bdd4d390ee12233ceb3))
+* merge branch/statement/functionMap's together when merging two coverage reports ([#617](https://github.com/mviera/monorepo-release-please-demo/issues/617)) ([ff1b5e9](https://github.com/mviera/monorepo-release-please-demo/commit/ff1b5e915201e4ff8f737010509bab98d8238118))
+* merge ranges properly when contained by other ranges in set ([#750](https://github.com/mviera/monorepo-release-please-demo/issues/750)) ([288888f](https://github.com/mviera/monorepo-release-please-demo/commit/288888fef02ea35baf536bdd4d390ee12233ceb3))
+* Proper data validation in findNearestContainer ([#754](https://github.com/mviera/monorepo-release-please-demo/issues/754)) ([c4895bb](https://github.com/mviera/monorepo-release-please-demo/commit/c4895bb418c55700182f481b914b74b2865a9bea)), closes [#753](https://github.com/mviera/monorepo-release-please-demo/issues/753)
+
 ## [3.2.2](https://github.com/istanbuljs/istanbuljs/compare/istanbul-lib-coverage-v3.2.1...istanbul-lib-coverage-v3.2.2) (2023-11-07)
 
 

@@ -97,6 +97,29 @@ provided directly on the `MapStore` instance.
 
 
 
+## [6.0.0](https://github.com/mviera/monorepo-release-please-demo/compare/istanbul-lib-source-maps-v5.0.6...istanbul-lib-source-maps-v6.0.0) (2024-07-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* replace source-map with @jridgewell/trace-mapping ([#685](https://github.com/mviera/monorepo-release-please-demo/issues/685))
+
+### Bug Fixes
+
+* `istanbul-lib-source-maps` implicit `else` crash edge case ([#789](https://github.com/mviera/monorepo-release-please-demo/issues/789)) ([bbb5815](https://github.com/mviera/monorepo-release-please-demo/commit/bbb5815a62f293151447a9e1b4363382a8bf3a2f))
+* `istanbul-lib-source-maps` to preserve implicit `else` when sourcemaps are used ([#706](https://github.com/mviera/monorepo-release-please-demo/issues/706)) ([d16a155](https://github.com/mviera/monorepo-release-please-demo/commit/d16a155b24bd137803779ad3772b4ea3f265a96f))
+* correct CI badge in source-maps readme ([78aa783](https://github.com/mviera/monorepo-release-please-demo/commit/78aa783a54760b79d7e6d0f6e0d8c6c481b690d7))
+* correct CI check to properly release 5.0.1 ([a39fdfe](https://github.com/mviera/monorepo-release-please-demo/commit/a39fdfe3a2082ba82ef4243840bcffe10737a40f))
+* handle missing source map ([1c2017d](https://github.com/mviera/monorepo-release-please-demo/commit/1c2017d5a3e20ef5725b77a8e4d76eff84b9a62f))
+* source mapping for branch statements ([#518](https://github.com/mviera/monorepo-release-please-demo/issues/518)) ([3833708](https://github.com/mviera/monorepo-release-please-demo/commit/38337081d97baa6295707d569dee9c4abc3f7da7))
+* use `allGeneratedPositionsFor` for more accurate source map transforms ([#768](https://github.com/mviera/monorepo-release-please-demo/issues/768)) ([c6d0982](https://github.com/mviera/monorepo-release-please-demo/commit/c6d0982e960f6aed85d9f4c7d1da3b6479bb2272))
+* use `allGeneratedPositionsFor` for more accurate source map transforms ([#771](https://github.com/mviera/monorepo-release-please-demo/issues/771)) ([dde947c](https://github.com/mviera/monorepo-release-please-demo/commit/dde947c6ee808b54ebf1ba4faea1f89c43ef3df6))
+
+
+### Code Refactoring
+
+* replace source-map with @jridgewell/trace-mapping ([#685](https://github.com/mviera/monorepo-release-please-demo/issues/685)) ([293f8b9](https://github.com/mviera/monorepo-release-please-demo/commit/293f8b97767e0a09646ef7a28543a13ffd92074d))
+
 ## [5.0.6](https://github.com/istanbuljs/istanbuljs/compare/istanbul-lib-source-maps-v5.0.5...istanbul-lib-source-maps-v5.0.6) (2024-07-02)
 
 
