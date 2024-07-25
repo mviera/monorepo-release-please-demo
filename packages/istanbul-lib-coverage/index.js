@@ -10,6 +10,7 @@
  * coverage objects. File coverage for the same file can be merged as can
  * entire coverage maps.
  *
+ *
  * @module Exports
  */
 const { FileCoverage } = require('./lib/file-coverage');
