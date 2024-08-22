@@ -46,6 +46,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+## [3.4.0](https://github.com/mviera/monorepo-release-please-demo/compare/istanbul-lib-coverage-v3.3.1...istanbul-lib-coverage-v3.4.0) (2024-08-22)
+
+
+### Features
+
+* dummy commit [#1](https://github.com/mviera/monorepo-release-please-demo/issues/1) ([56cdb75](https://github.com/mviera/monorepo-release-please-demo/commit/56cdb75f7b8f4f21880fe687e6dcdf314265e447))
+
 ## [3.3.1](https://github.com/mviera/monorepo-release-please-demo/compare/istanbul-lib-coverage-v3.3.0...istanbul-lib-coverage-v3.3.1) (2024-07-25)
 
 
