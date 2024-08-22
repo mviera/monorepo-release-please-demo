@@ -12,6 +12,9 @@
  *
  *
  *
+ *
+ *
+ *
  * @module Exports
  */
 const { FileCoverage } = require('./lib/file-coverage');
